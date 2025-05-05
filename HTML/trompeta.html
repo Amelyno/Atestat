@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="../CSS/instrumente.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/script.js" defer></script>
+    <script src="../JS/melodie.js" defer></script>
+    <title>Instrumente muzicale</title>
+</head>
+<body>
+    <div class="nav">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <header class="header">
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Coarde</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="vioara.html">Vioară</a></li>
+                    <li><a href="mandolina.html">Mandolină</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Suflătoare</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="flaut.html">Flaut</a></li>
+                    <li><a href="trompeta.html">Trompetă</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Percuție</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="tobe.html">Tobe</a></li>
+                    <li><a href="marimba.html">Marimba</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <a href="index.html"><span class="fas fa-home"></span></a>
+
+        <a href="ghid.html"><span class="fas fa-lightbulb"></span></a>
+
+        <a href="despreMine.html"><span class="fas fa-user"></span></a>
+    </div>
+
+    <div id="notes-container"></div>
+
+    <main class="main">
+        <section id="intro">
+            <h1>Trompeta</h1>
+            <p>Trompeta este unul dintre cele mai vechi și versatile instrumente de suflat din alamă, apreciată pentru sunetul său strălucitor și puternic. Este utilizată pe scară largă în muzica clasică, jazz, muzica de film și marșuri militare, fiind un simbol al energiei și expresivității.</p>
+            <model-viewer src="trumpet.glb" alt="Model 3D de trompetă" 
+                auto-rotate camera-controls shadow-intensity="1" style="width: 100%; height: 30em;">
+            </model-viewer>
+        </section>
+        
+        <section id="istoric">
+            <h2>Istoric</h2>
+            <p>Trompeta are o istorie de peste 3.000 de ani. Primele trompete erau fabricate din coarne de animale sau bronz și erau utilizate în ceremonii sau pentru semnalizare. Trompeta modernă a evoluat în secolul al XIX-lea, odată cu introducerea supapelor, care au extins gama de note pe care le poate interpreta.</p>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/t_antique.jpeg" alt="Trompetă antică">
+                    <figcaption>Trompetă antică</figcaption>
+                </figure>
+            </div>
+        </section>
+        
+        <section id="tipuri">
+            <h2>Tipuri de trompete:</h2>
+            <ul>
+                <li><strong>Trompetă în Si bemol:</strong> Este cel mai comun tip utilizat în orchestre și formații.</li>
+                <li><strong>Trompetă în Do:</strong> Folosită mai des în muzica clasică pentru intonația sa clară.</li>
+                <li><strong>Trompeta piccolo:</strong> O versiune mai mică, utilizată pentru interpretarea unor lucrări baroce.</li>
+            </ul>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/t_Bflat.jpeg" alt="Trompetă în Si bemol">
+                    <figcaption>Trompetă în Si bemol</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/t_C.jpeg" alt="Trompetă în Do">
+                    <figcaption>Trompetă în Do</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/t_piccolo.jpeg" alt="Trompeta piccolo">
+                    <figcaption>Trompeta piccolo</figcaption>
+                </figure>
+            </div>
+        </section>
+        
+        <section id="functionare">
+            <h2>Cum funcționează trompeta?</h2>
+            <p>Sunetul trompetei este produs prin vibrarea buzelor la nivelul muștiucului. Trompetistul folosește supapele pentru a modifica lungimea tubului și a schimba înălțimea notelor, în timp ce controlul aerului influențează dinamica și timbrul.</p>
+        </section>
+        
+        <section id="utilizare">
+            <h2>Utilizare în muzică</h2>
+            <p>Trompeta este un instrument versatil, regăsit în numeroase genuri muzicale:</p>
+            <ul>
+                <li><strong>Muzică clasică:</strong> Este un instrument esențial în orchestre și lucrări simfonice.</li>
+                <li><strong>Jazz:</strong> Trompeta are un rol central, fiind utilizată pentru solo-uri expresive.</li>
+                <li><strong>Muzică de film:</strong> Este folosită pentru teme epice sau dramatice.</li>
+            </ul>
+        </section>
+        
+        <section id="curiozitati">
+            <h2>Curiozități</h2>
+            <ul>
+                <li>Cea mai mare trompetă funcțională are 32 de metri și a fost construită în Germania.</li>
+                <li>În unele culturi antice, trompeta era considerată un instrument sacru, utilizat în ritualuri religioase.</li>
+                <li>Trompetele pot fi fabricate din alamă, aur sau argint pentru a influența tonalitatea și rezonanța.</li>
+            </ul>
+        </section>
+        
+        <section id="muzicieni-celebri">
+            <h2>Muzicieni celebri</h2>
+            <p>Printre cei mai renumiți trompetiști din lume se numără:</p>
+            <ul>
+                <li><strong>Louis Armstrong:</strong> Pionier al jazz-ului, cunoscut pentru stilul său inconfundabil.</li>
+                <li><strong>Miles Davis:</strong> O figură emblematică a jazz-ului modern.</li>
+                <li><strong>Maurice André:</strong> Celebru trompetist clasic, cunoscut pentru interpretările sale baroce.</li>
+            </ul>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/armstrong.jpeg" alt="Louis Armstrong">
+                    <figcaption>Louis Armstrong</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/davis.jpeg" alt="Miles Davis">
+                    <figcaption>Miles Davis</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/andre.jpeg" alt="Maurice André">
+                    <figcaption>Maurice André</figcaption>
+                </figure>
+            </div>
+        </section>
+        
+        <section id="concerte-celebre">
+            <h2>Concerte renumite</h2>
+            <p>Trompeta a fost instrumentul principal în multe lucrări celebre. Iată două dintre cele mai cunoscute:</p>
+            <ul>
+                <li>
+                    <strong>Joseph Haydn - Concert pentru Trompetă în Mi bemol Major:</strong>
+                    O lucrare clasică ce evidențiază virtuozitatea trompetistului.
+                </li>
+                <li>
+                    <strong>Johann Nepomuk Hummel - Concert pentru Trompetă în Mi bemol Major:</strong>
+                    O piesă elegantă și expresivă, care pune în valoare tehnica și sensibilitatea trompetei.
+                </li>
+            </ul>
+            <div class="video-container">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="http://www.youtube.com/embed/ZUZYoVw7moc" 
+                    title="Alison Balsom - Haydn Trumpet Concerto" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="http://www.youtube.com/embed/902St2UAmfA" 
+                    title="Robert Frear - Hummel Trumpet Concerto" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Instrumente muzicale. Toate drepturile rezervate.</p>
+    </footer>
+
+    <audio id="background-music" loop>
+        <source src="../Music/Jeremiah Clarke - Trumpet Voluntary (1).mp3" type="audio/mpeg">
+        Browser-ul tău nu suportă redarea audio.
+    </audio>
+    <div class="audio-controls">
+        <button id="play-pause-btn">▶ Play</button>
+        <div id="volume-wrapper">
+            <input id="volume-slider" type="range" min="0" max="1" step="0.01" value="0.5" style="display: none;">
+        </div>
+    </div>
+
+    <button id="scrollToTopBtn" title="Mergi sus">
+        <svg viewBox="0 0 24 24" class="arrow-up">
+            <path d="M4 14l8-8 8 8" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+</body>
+</html>

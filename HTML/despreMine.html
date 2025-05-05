@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/despreMine.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src ="../JS/dM.js" defer></script>
+    <script src="../JS/melodie.js" defer></script>
+    <script src="../JS/script.js" defer></script>
+    <title>Instrumente muzicale</title>
+</head>
+<body>
+    <div class="nav">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <header class="header">
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Coarde</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="vioara.html">Vioară</a></li>
+                    <li><a href="mandolina.html">Mandolină</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Suflătoare</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="flaut.html">Flaut</a></li>
+                    <li><a href="trompeta.html">Trompetă</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Percuție</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="tobe.html">Tobe</a></li>
+                    <li><a href="marimba.html">Marimba</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <a href="index.html"><span class="fas fa-home"></span></a>
+        <a href="ghid.html"><span class="fas fa-lightbulb"></span></a>
+        <a href="despreMine.html"><span class="fas fa-user"></span></a>
+    </div>
+
+    <div id="notes-container"></div>
+
+    <main class="main">
+        <section id="despre-mine">
+            <h1>Despre mine</h1>
+            <p>Sunt Boghian Pavel-Amiel, elev în clasa a XII-a A la Colegiul Tehnic "Regele Ferdinand I" Rădăuți. Am ales această temă deoarece muzica a fost mereu o parte importantă din viața mea. Îmi place să explorez diversitatea instrumentelor muzicale și să descopăr cum fiecare poate transmite emoții unice. Realizarea acestui site m-a ajutat să îmbin pasiunea pentru muzică cu abilitățile tehnice dobândite la informatică. În viitor, îmi doresc să continui să învăț și să creez proiecte care să inspire și pe alții.</p>
+            <img src="../Imagini/eu.jpg" alt="Boghian Pavel-Amiel" class="profile-image">
+        </section>
+        
+        <section id="scop">
+            <h2>Scopul site-ului</h2>
+            <p>Scopul acestui proiect este să le ofer vizitatorilor o imagine cât mai clară și atractivă asupra lumii fascinante a instrumentelor muzicale, să evidențiez diversitatea lor și să încurajez pe oricine, indiferent de vârstă sau experiență, să descopere bucuria muzicii.</p>
+        </section>
+        
+        <section id="timeline">
+            <h2>Procesul de realizare</h2>
+            <div class="timeline-container">
+                <div class="timeline-point" data-step="1">
+                    <span class="tooltip">Am planificat structura site-ului și am documentat informații despre instrumente muzicale.</span>
+                </div>
+                <div class="timeline-point" data-step="2">
+                    <span class="tooltip">Am realizat designul cu o interfață clară și plăcută, folosind HTML și CSS.</span>
+                </div>
+                <div class="timeline-point" data-step="3">
+                    <span class="tooltip">Am adăugat funcționalități interactive, precum ghidul de alegere a instrumentului, cu JavaScript.</span>
+                </div>
+                <div class="timeline-point" data-step="4">
+                    <span class="tooltip">Am testat site-ul pe diferite dispozitive pentru a asigura compatibilitatea.</span>
+                </div>
+                <div class="timeline-point" data-step="5">
+                    <span class="tooltip">Am completat documentația și am pregătit prezentarea proiectului.</span>
+                </div>                            
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Pentru întrebări sau feedback, completați formularul de mai jos:</p>
+            <form action="mailto:boghianpami@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Nume:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Trimite</button>
+            </form>
+        </section>
+        
+        <section id="multumiri">
+            <h2>Mulțumiri</h2>
+            <p>Mulțumesc doamnei profesoare David Liliana-Mihaela pentru sprijinul și îndrumarea acordate în realizarea acestui proiect.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Instrumente muzicale. Toate drepturile rezervate.</p>
+    </footer>
+
+    <audio id="background-music" loop>
+        <source src="../Music/Ludovico Einaudi - Nuvole Bianche (Official Visualiser).mp3" type="audio/mpeg">
+        Browser-ul tău nu suportă redarea audio.
+    </audio>
+    <div class="audio-controls">
+        <button id="play-pause-btn">▶ Play</button>
+        <div id="volume-wrapper">
+            <input id="volume-slider" type="range" min="0" max="1" step="0.01" value="0.5" style="display: none;">
+        </div>
+    </div>
+
+    <button id="scrollToTopBtn" title="Mergi sus">
+        <svg viewBox="0 0 24 24" class="arrow-up">
+            <path d="M4 14l8-8 8 8" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+</body>
+</html>

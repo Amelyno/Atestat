@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="../CSS/instrumente.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/script.js" defer></script>
+    <script src="../JS/melodie.js" defer></script>
+    <title>Instrumente muzicale</title>
+</head>
+<body>
+    <div class="nav">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <header class="header">
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Coarde</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="vioara.html">Vioară</a></li>
+                    <li><a href="mandolina.html">Mandolină</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Suflătoare</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="flaut.html">Flaut</a></li>
+                    <li><a href="trompeta.html">Trompetă</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Percuție</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="tobe.html">Tobe</a></li>
+                    <li><a href="marimba.html">Marimba</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <a href="index.html"><span class="fas fa-home"></span></a>
+        
+        <a href="ghid.html"><span class="fas fa-lightbulb"></span></a>
+
+        <a href="despreMine.html"><span class="fas fa-user"></span></a>
+    </div>
+
+    <div id="notes-container"></div>
+
+    <main class="main">
+        <section id="intro">
+            <h1>Vioara</h1>
+            <p>Vioara este un instrument cu coarde frecate, renumit pentru sunetul său cald și expresiv. Este un simbol al muzicii clasice, dar este folosită și în alte genuri muzicale, precum jazz, folk și pop. Datorită versatilității sale, vioara este unul dintre cele mai iubite instrumente din lume.</p>
+            <model-viewer src="violin.glb" alt="Model 3D de vioară" 
+                auto-rotate camera-controls shadow-intensity="1" style="width: 100%; height: 30em;">
+            </model-viewer>
+        </section>
+        
+        <section id="istoric">
+            <h2>Istoric</h2>
+            <p>Vioara a apărut în nordul Italiei în secolul al XVI-lea, fiind creată de lutieri celebri precum Andrea Amati. În timp, maeștri precum Antonio Stradivari și Giuseppe Guarneri au perfecționat construcția viorii, transformând-o într-un instrument de referință în muzica clasică. De-a lungul secolelor, vioara a devenit un simbol al eleganței și al virtuozității.</p>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/v_strad.jpeg" alt="Vioară Stradivarius">
+                    <figcaption>Vioară Stradivarius, un simbol al excelenței</figcaption>    
+                </figure>
+            </div>
+        </section>
+        
+        <section id="tipuri">
+            <h2>Tipuri de vioare:</h2>
+            <ul>
+                <li><strong>Vioara acustică:</strong> Este forma tradițională, utilizată în muzica clasică, folk și alte genuri acustice.</li>
+                <li><strong>Vioara electrică:</strong> Permite amplificarea sunetului și este folosită în muzica modernă, rock și jazz.</li>
+                <li><strong>Vioara barocă:</strong> O variantă istorică, cu un design specific, utilizată pentru interpretarea muzicii vechi.</li>
+            </ul>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/v_acoustic.jpeg" alt="Vioară acustică">
+                    <figcaption>Vioară acustică</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/v_electric.jpeg" alt="Vioară electrică">
+                    <figcaption>Vioară electrică</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/v_baroc.jpeg" alt="Vioară barocă">
+                    <figcaption>Vioară barocă</figcaption>
+                </figure>
+            </div>
+        </section>
+        
+        <section id="functionare">
+            <h2>Cum funcționează vioara?</h2>
+            <p>Sunetul vioarei este produs prin frecarea arcușului pe coarde, ceea ce le face să vibreze. Violonistul controlează înălțimea sunetului prin apăsarea coardelor pe tastieră, iar intensitatea și timbrul sunt influențate de presiunea și viteza arcușului.</p>
+        </section>
+        
+        <section id="utilizare">
+            <h2>Utilizare în muzică</h2>
+            <p>Vioara este un instrument esențial în diverse stiluri muzicale:</p>
+            <ul>
+                <li><strong>Muzică clasică:</strong> Este liderul secțiunii de coarde din orchestră și un instrument preferat pentru solo-uri.</li>
+                <li><strong>Muzică folk:</strong> Este folosită în tradiții muzicale din întreaga lume, de la muzica irlandeză la cea balcanică.</li>
+                <li><strong>Jazz:</strong> Violoniști celebri au demonstrat versatilitatea vioarei în acest gen, aducând un sunet unic.</li>
+            </ul>
+        </section>
+        
+        <section id="curiozitati">
+            <h2>Curiozități</h2>
+            <ul>
+                <li>Un Stradivarius original poate valora milioane de dolari datorită calității sunetului și rarității sale.</li>
+                <li>Coardele vioarei erau inițial fabricate din intestine de animale, dar acum se folosesc materiale sintetice sau metal.</li>
+                <li>Există viori personalizate cu 5 sau chiar 6 coarde, utilizate în muzica experimentală.</li>
+            </ul>
+        </section>
+        
+        <section id="muzicieni-celebri">
+            <h2>Muzicieni celebri</h2>
+            <p>Vioara a fost instrumentul preferat al multor mari artiști:</p>
+            <ul>
+                <li><strong>Niccolò Paganini:</strong> Virtuoz italian, considerat unul dintre cei mai mari violoniști din toate timpurile.</li>
+                <li><strong>Jascha Heifetz:</strong> Violonist american de origine lituaniană, renumit pentru tehnica sa impecabilă.</li>
+                <li><strong>Anne-Sophie Mutter:</strong> Violonistă germană recunoscută pentru interpretările sale clasice de excepție.</li>
+            </ul>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/paganini.jpeg" alt="Niccolò Paganini">
+                    <figcaption>Niccolò Paganini</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/heifetz.jpeg" alt="Jascha Heifetz">
+                    <figcaption>Jascha Heifetz</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/mutter.jpeg" alt="Anne-Sophie Mutter">
+                    <figcaption>Anne-Sophie Mutter</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="concerte-celebre">
+            <h2>Concerte renumite</h2>
+            <p>Vioara a fost instrumentul principal în multe concerte memorabile, interpretate de artiști de renume. Iată câteva dintre cele mai cunoscute:</p>
+            <ul>
+                <li>
+                    <strong>Concertul pentru vioară în Re major, op. 35 - Piotr Ilici Ceaikovski:</strong>
+                    Unul dintre cele mai iubite concerte pentru vioară, cunoscut pentru melodiile sale emoționante și tehnica spectaculoasă.
+                </li>
+
+                <li>
+                    <strong>Concertul pentru vioară în Re major, op. 77 - Johannes Brahms:</strong>
+                    Un concert complex și profund, care pune în valoare expresivitatea și virtuozitatea violonistului.
+                </li>
+            </ul>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9cNQFB0TDfY" title="Ceaikovski - Concert pentru vioară" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3X9LvC9WkkQ" title="Brahms - Concert pentru vioară" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Instrumente muzicale. Toate drepturile rezervate.</p>
+    </footer>
+
+    <audio id="background-music" loop>
+        <source src="../Music/Massenet_ Thaïs_ Méditation.mp3" type="audio/mpeg">
+        Browser-ul tău nu suportă redarea audio.
+    </audio>
+    <div class="audio-controls">
+        <button id="play-pause-btn">▶ Play</button>
+        <div id="volume-wrapper">
+            <input id="volume-slider" type="range" min="0" max="1" step="0.01" value="0.5" style="display: none;">
+        </div>
+    </div>
+
+    <button id="scrollToTopBtn" title="Mergi sus">
+        <svg viewBox="0 0 24 24" class="arrow-up">
+            <path d="M4 14l8-8 8 8" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+</body>
+</html>

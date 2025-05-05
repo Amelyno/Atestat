@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="../CSS/instrumente.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/script.js" defer></script>
+    <script src="../JS/melodie.js" defer></script>
+    <title>Instrumente muzicale</title>
+</head>
+<body>
+    <div class="nav">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <header class="header">
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Coarde</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="vioara.html">Vioară</a></li>
+                    <li><a href="mandolina.html">Mandolină</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Suflătoare</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="flaut.html">Flaut</a></li>
+                    <li><a href="trompeta.html">Trompetă</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Percuție</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="tobe.html">Tobe</a></li>
+                    <li><a href="marimba.html">Marimba</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <a href="index.html"><span class="fas fa-home"></span></a>
+
+        <a href="ghid.html"><span class="fas fa-lightbulb"></span></a>
+
+        <a href="despreMine.html"><span class="fas fa-user"></span></a>
+    </div>
+
+    <div id="notes-container"></div>
+
+    <main>
+        <section id="intro">
+            <h1>Marimba</h1>
+            <p>Marimba este un instrument de percuție melodică cu un sunet cald, rezonant și bogat. Originile sale se află în Africa, de unde a fost introdusă în America Latină, devenind un instrument popular în diverse genuri muzicale, de la muzica clasică contemporană la jazz și muzica populară.</p>
+            <model-viewer src="marimba.glb" alt="Model 3D de marimbă"
+                auto-rotate camera-controls shadow-intensity="1" style="width: 100%; height: 30em;">
+            </model-viewer>
+        </section>
+    
+        <section id="istoric">
+            <h2>Istoric</h2>
+            <p>Marimba își are rădăcinile în instrumentele de percuție cu bare de lemn din Africa. Aceste instrumente au fost aduse în America Latină de sclavi, unde au evoluat în forma marimbei moderne. Guatemala și Mexic sunt considerate centre importante în dezvoltarea marimbei, unde a fost adaptată și integrată în muzica locală. În secolul al XX-lea, marimba a început să fie recunoscută și în muzica clasică occidentală.</p>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/marimba_africa.jpg" alt="Marimbă africană tradițională">
+                    <figcaption>Marimbă africană tradițională</figcaption>
+                </figure>
+            </div>
+        </section>
+    
+        <section id="tipuri">
+            <h2>Tipuri de marimbă:</h2>
+            <ul>
+                <li><strong>Marimba de concert:</strong> De dimensiuni mari, cu o gamă extinsă și un sunet plin, utilizată în orchestre și ansambluri de percuție.</li>
+                <li><strong>Marimba cromatică:</strong> Include toate notele gamei cromatice, permițând interpretarea unei game largi de melodii.</li>
+                <li><strong>Marimba cu rezonatoare:</strong> Cel mai comun tip, cu tuburi rezonatoare sub fiecare bară pentru a amplifica și îmbogăți sunetul.</li>
+            </ul>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/marimba_concert.jpg" alt="Marimbă de concert">
+                    <figcaption>Marimbă de concert</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/marimba_cromatica.jpeg" alt="Marimbă cromatică">
+                    <figcaption>Marimbă cromatică</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/marimba_rezonatoare.jpeg" alt="Marimbă rezonatoare">
+                    <figcaption>Marimbă rezonatoare</figcaption>
+                </figure>
+            </div>
+        </section>
+    
+        <section id="functionare">
+            <h2>Cum funcționează marimba?</h2>
+            <p>Sunetul marimbei este produs prin lovirea barelor de lemn (sau uneori sintetice) cu baghete. Fiecare bară este acordată la o anumită înălțime. Sub fiecare bară se află un rezonator (un tub) acordat la aceeași frecvență, care amplifică sunetul și îi conferă rezonanța caracteristică. Lungimea și diametrul rezonatorului influențează timbrul și sustain-ul notei.</p>
+        </section>
+    
+        <section id="utilizare">
+            <h2>Utilizare în muzică</h2>
+            <p>Marimba este un instrument versatil, utilizat în diverse contexte muzicale:</p>
+            <ul>
+                <li><strong>Muzică clasică contemporană:</strong> Mulți compozitori moderni au scris lucrări solo și de ansamblu pentru marimbă.</li>
+                <li><strong>Ansambluri de percuție:</strong> Marimba este un instrument cheie în ansamblurile de percuție, oferind atât melodie, cât și armonie.</li>
+                <li><strong>Jazz:</strong> Unii muzicieni de jazz au explorat sunetul unic al marimbei în improvizații și compoziții.</li>
+                <li><strong>Muzică populară și latino-americană:</strong> Marimba are un rol important în muzica tradițională din țări precum Guatemala și Mexic.</li>
+            </ul>
+        </section>
+    
+        <section id="curiozitati">
+            <h2>Curiozități</h2>
+            <ul>
+                <li>În unele culturi africane, marimba este asociată cu ritualuri și ceremonii.</li>
+                <li>Dimensiunea și numărul de bare ale unei marimbe pot varia semnificativ, afectând gama și posibilitățile muzicale.</li>
+                <li>Baghetele pentru marimbă sunt fabricate din diverse materiale și au durități diferite, influențând timbrul sunetului produs.</li>
+            </ul>
+        </section>
+    
+        <section id="muzicieni-celebri">
+            <h2>Muzicieni celebri</h2>
+            <p>Unii dintre cei mai cunoscuți interpreți la marimbă includ:</p>
+            <ul>
+                <li><strong>Keiko Abe:</strong> Considerată una dintre cele mai mari marimbiste din lume, compozitoare și pedagogă influentă.</li>
+                <li><strong>Evelyn Glennie:</strong> Percuționistă solo de renume mondial, care include adesea marimba în repertoriul său.</li>
+                <li><strong>Ney Rosauro:</strong> Compozitor și marimbist brazilian, cunoscut pentru lucrările sale pentru percuție.</li>
+            </ul>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/keiko_abe.jpg" alt="Keiko Abe">
+                    <figcaption>Keiko Abe</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/evelyn_glennie.jpg" alt="Evelyn Glennie">
+                    <figcaption>Evelyn Glennie</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/ney_rosauro.jpg" alt="Ney Rosauro">
+                    <figcaption>Ney Rosauro</figcaption>
+                </figure>
+            </div>
+        </section>
+    
+        <section id="concerte-celebre">
+            <h2>Concerte renumite</h2>
+            <p>Marimba este solistă în multe piese captivante. Iată două exemple notabile:</p>
+            <ul>
+                <li>
+                    <strong>Keiko Abe - "Dream of the Cherry Blossoms":</strong>
+                    O compoziție iconică pentru marimbă solo, care explorează sonorități delicate și expresive.
+                </li>
+                <li>
+                    <strong>Ney Rosauro - Concert pentru Marimbă și Orchestră:</strong>
+                    O lucrare vibrantă și melodică, care pune în valoare capacitățile tehnice și expresive ale marimbei în context orchestral.
+                </li>
+            </ul>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GfM0Ba9cW6U" title="Keiko Abe - Dream of the Cherry Blossoms" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/hrQhvU_FkG8" title="Ney Rosauro - Concert pentru Marimbă și Orchestră" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Instrumente muzicale. Toate drepturile rezervate.</p>
+    </footer>
+
+    <audio id="background-music" loop>
+        <source src="../Music/Marimba Dream Song - Soothing Marimba Solo - Marimba Instrumental Music - Marimba Music Solo.mp3" type="audio/mpeg">
+        Browser-ul tău nu suportă redarea audio.
+    </audio>
+    <div class="audio-controls">
+        <button id="play-pause-btn">▶ Play</button>
+        <div id="volume-wrapper">
+            <input id="volume-slider" type="range" min="0" max="1" step="0.01" value="0.5" style="display: none;">
+        </div>
+    </div>
+
+    <button id="scrollToTopBtn" title="Mergi sus">
+        <svg viewBox="0 0 24 24" class="arrow-up">
+            <path d="M4 14l8-8 8 8" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+</body>
+</html>

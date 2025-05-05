@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/principala.css">
+    <script src="../JS/script.js" defer></script>
+    <script src="../JS/melodie.js" defer></script>
+    <title>Instrumente muzicale</title>
+</head>
+<body>
+    <div class="nav">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <header class="header">
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Coarde</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="vioara.html">Vioară</a></li>
+                    <li><a href="mandolina.html">Mandolină</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Suflătoare</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="flaut.html">Flaut</a></li>
+                    <li><a href="trompeta.html">Trompetă</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Percuție</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="tobe.html">Tobe</a></li>
+                    <li><a href="marimba.html">Marimba</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <a href="index.html"><span class="fas fa-home"></span></a>
+
+        <a href="ghid.html"><span class="fas fa-lightbulb"></span></a>
+
+        <a href="despreMine.html"><span class="fas fa-user"></span></a>
+    </div>
+
+    <div id="notes-container"></div>
+
+    <main class="main">
+        <section id="instrumente">
+            <h2>Descoperiți instrumentele</h2>
+            <div class="instrument-card">
+                <h3>Flaut</h3>
+                <p>Instrument versatil cu sunet clar și melodios.</p>
+                <a href="flaut.html">Descoperă mai multe</a>
+            </div>
+
+            <div class="instrument-card">
+                <h3>Trompetă</h3>
+                <p>Simbol al puterii și expresivității sonore.</p>
+                <a href="trompeta.html">Descoperă mai multe</a>
+            </div>
+
+            <div class="instrument-card">
+                <h3>Vioară</h3>
+                <p>Simbol al eleganței, cunoscută pentru sunetul său expresiv.</p>
+                <a href="vioara.html">Descoperă mai multe</a>
+            </div>
+            
+            <div class="instrument-card">
+                <h3>Mandolină</h3>
+                <p>Instrument cu coarde, utilizat în diverse genuri muzicale.</p>
+                <a href="mandolina.html">Descoperă mai multe</a>
+            </div>
+            
+            <div class="instrument-card">
+                <h3>Harpă</h3>
+                <p>Un instrument străvechi cu un sunet angelic și armonios.</p>
+                <a href="harpa.html">Descoperă mai multe</a>
+            </div>
+            
+            <div class="instrument-card">
+                <h3>Ukulele</h3>
+                <p>Un instrument vesel, asociat cu muzica din Hawaii.</p>
+                <a href="ukulele.html">Descoperă mai multe</a>
+            </div>
+        </section>
+        
+        <section id="ghid">
+            <h2>Începător? Nu te teme!</h2>
+            <p>Află ce instrument ți se potrivește și începe călătoria muzicală astăzi.</p>
+            <a href="ghid.html">Vezi Ghidul</a>
+        </section>       
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Instrumente muzicale. Toate drepturile rezervate.</p>
+    </footer> 
+
+    <audio id="background-music" loop>
+        <source src="../Music/Edvard Grieg_ Peer Gynt - Morning Mood.mp3" type="audio/mpeg">
+        Browser-ul tău nu suportă redarea audio.
+    </audio>
+    <div class="audio-controls">
+        <button id="play-pause-btn">▶ Play</button>
+        <div id="volume-wrapper">
+            <input id="volume-slider" type="range" min="0" max="1" step="0.01" value="0.5" style="display: none;">
+        </div>
+    </div>
+
+    <button id="scrollToTopBtn" title="Mergi sus">
+        <svg viewBox="0 0 24 24" class="arrow-up">
+            <path d="M4 14l8-8 8 8" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+</body>
+</html>

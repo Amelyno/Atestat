@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="../CSS/instrumente.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/script.js" defer></script>
+    <script src="../JS/melodie.js" defer></script>
+    <title>Instrumente muzicale</title>
+</head>
+<body>
+    <div class="nav">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <header class="header">
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Coarde</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="vioara.html">Vioară</a></li>
+                    <li><a href="mandolina.html">Mandolină</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Suflătoare</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="flaut.html">Flaut</a></li>
+                    <li><a href="trompeta.html">Trompetă</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Percuție</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="tobe.html">Tobe</a></li>
+                    <li><a href="marimba.html">Marimba</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <a href="index.html"><span class="fas fa-home"></span></a>
+
+        <a href="ghid.html"><span class="fas fa-lightbulb"></span></a>
+
+        <a href="despreMine.html"><span class="fas fa-user"></span></a>
+    </div>
+
+    <div id="notes-container"></div>
+
+    <main class="main">
+        <section id="intro">
+            <h1>Mandolina</h1>
+            <p>Mandolina este un instrument cu coarde ciupite, cunoscut pentru sunetul său clar și cristalin. Originară din Italia, mandolina este folosită într-o varietate de genuri muzicale, de la muzica clasică și folk, până la bluegrass și muzica tradițională italiană. Datorită versatilității sale, mandolina continuă să fie un instrument apreciat în întreaga lume.</p>
+            <model-viewer src="free_portuguese_mandolin_02.glb" alt="Model 3D de mandolină" 
+                auto-rotate camera-controls shadow-intensity="1" style="width: 100%; height: 30em;">
+            </model-viewer>
+        </section>
+        
+        <section id="istoric">
+            <h2>Istoric</h2>
+            <p>Mandolina își are originile în Italia, unde a evoluat din instrumente mai vechi precum lăuta. În secolul al XVIII-lea, mandolina a căpătat forma sa modernă, cu spatele rotunjit și corzi duble. A devenit extrem de populară în Europa, fiind folosită în muzica clasică și tradițională, iar mai târziu a câștigat popularitate în Statele Unite, în special în muzica bluegrass.</p>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/m_italiantrad.jpeg" alt="Mandolină italiană tradițională">
+                    <figcaption>Mandolină italiană tradițională</figcaption>
+                </figure>
+            </div>
+        </section>
+        
+        <section id="tipuri">
+            <h2>Tipuri de mandoline:</h2>
+            <ul>
+                <li><strong>Mandolina napolitană:</strong> Cu spatele rotunjit, este cel mai cunoscut tip tradițional italian, folosit în muzica clasică și tradițională.</li>
+                <li><strong>Mandolina flatback:</strong> Cu spatele plat, este populară în muzica folk și bluegrass datorită sunetului său clar și proiecției excelente.</li>
+                <li><strong>Mandolina electrică:</strong> Folosită în muzica modernă, permite amplificarea sunetului și efecte sonore variate.</li>
+            </ul>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/m_napolitana.jpeg" alt="Mandolină napolitană">
+                    <figcaption>Mandolină napolitană</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/m_flatback.jpeg" alt="Mandolină flatback">
+                    <figcaption>Mandolină flatback</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/m_electric.jpeg" alt="Mandolină electrică">
+                    <figcaption>Mandolină electrică</figcaption>
+                </figure>
+            </div>
+        </section>
+        
+        <section id="functionare">
+            <h2>Cum funcționează mandolina?</h2>
+            <p>Sunetul mandolinei este produs prin ciupirea corzilor cu o pană. Coardele duble, acordate la unison, creează un sunet bogat și vibrant. Forma cutiei de rezonanță și spatele rotunjit sau plat contribuie la claritatea și proiecția sunetului. Mandolina este acordată similar cu vioara, ceea ce o face ușor de învățat pentru violoniști.</p>
+        </section>
+        
+        <section id="utilizare">
+            <h2>Utilizare în muzică</h2>
+            <p>Mandolina este utilizată într-o varietate de genuri muzicale:</p>
+            <ul>
+                <li><strong>Muzică clasică:</strong> Compozitori precum Antonio Vivaldi și Beethoven au scris lucrări pentru mandolină.</li>
+                <li><strong>Muzică folk:</strong> Este un instrument esențial în tradițiile muzicale italiene și americane.</li>
+                <li><strong>Bluegrass:</strong> Mandolina este folosită pentru ritmuri rapide și solo-uri energice, fiind un pilon al acestui gen muzical.</li>
+            </ul>
+        </section>
+        
+        <section id="curiozitati">
+            <h2>Curiozități</h2>
+            <ul>
+                <li>Antonio Vivaldi a compus două concerte celebre pentru mandolină, care sunt încă interpretate astăzi.</li>
+                <li>Mandolina este folosită în acompaniamentul dansurilor tradiționale din Italia și alte regiuni europene.</li>
+                <li>Există variante ale mandolinei, cum ar fi mandolina octave, care produce un sunet mai profund.</li>
+            </ul>
+        </section>
+        
+        <section id="muzicieni-celebri">
+            <h2>Muzicieni Celebri</h2>
+            <p>Mandolina a fost folosită de artiști renumiți, precum:</p>
+            <ul>
+                <li><strong>Chris Thile:</strong> Virtuoz al mandolinei și membru al trupei Punch Brothers.</li>
+                <li><strong>Giovanni Gioviale:</strong> Un maestru italian al mandolinei din secolul XX.</li>
+                <li><strong>David Grisman:</strong> Muzician american cunoscut pentru contribuțiile sale la bluegrass și jazz.</li>
+            </ul>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/thile.jpeg" alt="Chris Thile">
+                    <figcaption>Chris Thile</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/gioviale.jpeg" alt="Giovanni Gioviale">
+                    <figcaption>Giovanni Gioviale</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/grisman.jpeg" alt="David Grisman">
+                    <figcaption>David Grisman</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="concerte-celebre">
+            <h2>Concerte renumite</h2>
+            <p>Mandolina a fost instrumentul principal în multe lucrări celebre. Iată două dintre cele mai cunoscute concerte:</p>
+            <ul>
+                <li>
+                    <strong>Antonio Vivaldi - Concert pentru Mandolină în Do Major, RV 425:</strong>
+                    O lucrare clasică ce evidențiază sunetul clar și vibrant al mandolinei.
+                </li>
+                <li>
+                    <strong>Giovanni Battista Gervasio - Sonata pentru Mandolină în Do Major:</strong>
+                    O piesă elegantă și expresivă, care pune în valoare tehnica și sensibilitatea mandolinei.
+                </li>
+            </ul>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xt2AYpTN0D8" title="Vivaldi - Concert pentru Mandolină" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vAK29y1aUwQ" title="Gervasio - Sonata pentru Mandolină" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Instrumente muzicale. Toate drepturile rezervate.</p>
+    </footer>
+
+    <audio id="background-music" loop>
+        <source src="../Music/Vivaldi - Concerto for Mandolin in C Major RV425.mp3" type="audio/mpeg">
+        Browser-ul tău nu suportă redarea audio.
+    </audio>
+    <div class="audio-controls">
+        <button id="play-pause-btn">▶ Play</button>
+        <div id="volume-wrapper">
+            <input id="volume-slider" type="range" min="0" max="1" step="0.01" value="0.5" style="display: none;">
+        </div>
+    </div>
+
+    <button id="scrollToTopBtn" title="Mergi sus">
+        <svg viewBox="0 0 24 24" class="arrow-up">
+            <path d="M4 14l8-8 8 8" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+</body>
+</html>

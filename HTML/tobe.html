@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="../CSS/instrumente.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/script.js" defer></script>
+    <script src="../JS/melodie.js" defer></script>
+    <title>Instrumente muzicale</title>
+</head>
+<body>
+    <div class="nav">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <header class="header">
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Coarde</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="vioara.html">Vioară</a></li>
+                    <li><a href="mandolina.html">Mandolină</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Suflătoare</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="flaut.html">Flaut</a></li>
+                    <li><a href="trompeta.html">Trompetă</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Percuție</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="tobe.html">Tobe</a></li>
+                    <li><a href="marimba.html">Marimba</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <a href="index.html"><span class="fas fa-home"></span></a>
+
+        <a href="ghid.html"><span class="fas fa-lightbulb"></span></a>
+
+        <a href="despreMine.html"><span class="fas fa-user"></span></a>
+    </div>
+
+    <div id="notes-container"></div>
+
+    <main class="main">
+        <section id="intro">
+            <h1>Tobe</h1>
+            <p>Tobele sunt instrumente de percuție esențiale în muzica modernă, cunoscute pentru ritmurile lor dinamice și impactul puternic. Ele sunt utilizate într-o varietate de genuri muzicale, de la rock și jazz până la muzică clasică și tradițională, fiind un simbol al energiei și al expresivității.</p>
+            <model-viewer src="drum_kit.glb" alt="Model 3D de tobe" 
+                auto-rotate camera-controls shadow-intensity="1" style="width: 100%; height: 30em;">
+            </model-viewer>
+        </section>
+        
+        <section id="istoric">
+            <h2>Istoric</h2>
+            <p>Tobele sunt printre cele mai vechi instrumente muzicale, având o istorie de peste 6.000 de ani. Primele tobe erau fabricate din piele întinsă peste un cadru de lemn sau lut și erau folosite în ceremonii religioase și ritualuri. Setul modern de tobe, cunoscut sub numele de "drum kit," a fost dezvoltat la începutul secolului XX, odată cu apariția jazz-ului.</p>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/tobe_antice.jpg" alt="Tobe antice">
+                    <figcaption>Tobe antice</figcaption>
+                </figure>
+            </div>
+        </section>
+        
+        <section id="tipuri">
+            <h2>Tipuri de tobe:</h2>
+            <ul>
+                <li><strong>Tobele acustice:</strong> Seturi tradiționale utilizate în muzica live și înregistrări.</li>
+                <li><strong>Tobele electronice:</strong> Permit crearea de sunete variate și sunt ideale pentru muzica modernă.</li>
+                <li><strong>Tobele tradiționale:</strong> Folosite în muzica folclorică, cum ar fi djembe-ul african sau tabla indiană.</li>
+            </ul>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/tobe_acustice.jpg" alt="Tobe acustice">
+                    <figcaption>Tobe acustice</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/tobe_electronice.jpeg" alt="Tobe electronice">
+                    <figcaption>Tobe electronice</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/tobe_traditionale.jpg" alt="Tobe tradiționale">
+                    <figcaption>Tobe tradiționale</figcaption>
+                </figure>
+            </div>
+        </section>
+        
+        <section id="functionare">
+            <h2>Cum funcționează tobele?</h2>
+            <p>Sunetul tobelor este produs prin lovirea membranei întinse cu bețe de tobă, mâini sau alte accesorii. Intensitatea și tonalitatea sunetului sunt influențate de forța loviturii, poziția pe care este lovită membrana și tipul de tobă utilizat. Tobele electronice folosesc senzori pentru a genera sunete digitale.</p>
+        </section>
+        
+        <section id="utilizare">
+            <h2>Utilizare în muzică</h2>
+            <p>Tobele sunt utilizate într-o gamă variată de stiluri muzicale:</p>
+            <ul>
+                <li><strong>Rock:</strong> Tobele sunt esențiale pentru ritmurile energice și dinamice ale acestui gen.</li>
+                <li><strong>Jazz:</strong> Tobele contribuie la improvizație și la crearea unor ritmuri complexe.</li>
+                <li><strong>Muzică tradițională:</strong> Tobele sunt folosite în dansuri și ceremonii din diverse culturi.</li>
+            </ul>
+        </section>
+        
+        <section id="curiozitati">
+            <h2>Curiozități</h2>
+            <ul>
+                <li>Cel mai mare set de tobe din lume are peste 813 piese și este deținut de un muzician din Statele Unite.</li>
+                <li>Tobele electronice moderne pot imita sunetul a sute de instrumente diferite.</li>
+                <li>În unele culturi, tobele sunt considerate sacre și sunt folosite pentru a comunica cu spiritele.</li>
+            </ul>
+        </section>
+        
+        <section id="muzicieni-celebri">
+            <h2>Muzicieni celebri</h2>
+            <p>Tobele au fost instrumentul preferat al multor bateriști talentați:</p>
+            <ul>
+                <li><strong>John Bonham:</strong> Bateristul legendar al trupei Led Zeppelin, renumit pentru stilul său puternic și inovator.</li>
+                <li><strong>Buddy Rich:</strong> Considerat de mulți ca fiind unul dintre cei mai mari bateriști din istorie, cunoscut pentru virtuozitatea și viteza sa incredibilă.</li>
+                <li><strong>Neil Peart:</strong> Bateristul trupei Rush, apreciat pentru tehnica sa complexă și contribuțiile lirice.</li>
+            </ul>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/john.jpg" alt="John Bonham">
+                    <figcaption>John Bonham</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/buddy.jpg" alt="Buddy Rich">
+                    <figcaption>Buddy Rich</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/neilpeart.jpg" alt="Neil Peart">
+                    <figcaption>Neil Peart</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="concerte-celebre">
+            <h2>Concerte renumite</h2>
+            <p>Tobele au fost esențiale în multe interpretări celebre. Iată două dintre cele mai cunoscute:</p>
+            <ul>
+                <li>
+                    <strong>Neil Peart - Solo de Tobă (Rush - YYZ):</strong>
+                    O interpretare legendară care demonstrează tehnica și creativitatea unui toboșar de excepție.
+                </li>
+                <li>
+                    <strong>Buddy Rich - Solo de Tobă:</strong>
+                    O demonstrație de virtuozitate și viteză, considerată una dintre cele mai bune din istorie.</li>
+            </ul>
+            <div class="video-container">
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/qw6aWbXL5Mc" title="Neil Peart's Ultimate Drum Solo | Letterman" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/94DeieWZgTM" title="Buddy Rich drum solo 1974 Wolf Trap - West Side Story" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Instrumente muzicale. Toate drepturile rezervate.</p>
+    </footer>
+
+    <audio id="background-music" loop>
+        <source src="../Music/Eye of the Tiger - Drum Cover - Survivor.mp3" type="audio/mpeg">
+        Browser-ul tău nu suportă redarea audio.
+    </audio>
+    <div class="audio-controls">
+        <button id="play-pause-btn">▶ Play</button>
+        <div id="volume-wrapper">
+            <input id="volume-slider" type="range" min="0" max="1" step="0.01" value="0.5" style="display: none;">
+        </div>
+    </div>
+
+    <button id="scrollToTopBtn" title="Mergi sus">
+        <svg viewBox="0 0 24 24" class="arrow-up">
+            <path d="M4 14l8-8 8 8" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+</body>
+</html>

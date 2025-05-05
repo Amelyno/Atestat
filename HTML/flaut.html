@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="../CSS/instrumente.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/script.js" defer></script>
+    <script src="../JS/melodie.js" defer></script>
+    <title>Instrumente muzicale</title>
+</head>
+<body>
+    <div class="nav">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <header class="header">
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Coarde</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="vioara.html">Vioară</a></li>
+                    <li><a href="mandolina.html">Mandolină</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Suflătoare</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="flaut.html">Flaut</a></li>
+                    <li><a href="trompeta.html">Trompetă</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Percuție</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="tobe.html">Tobe</a></li>
+                    <li><a href="marimba.html">Marimba</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <a href="index.html"><span class="fas fa-home"></span></a>
+
+        <a href="ghid.html"><span class="fas fa-lightbulb"></span></a>
+
+        <a href="despreMine.html"><span class="fas fa-user"></span></a>
+    </div>
+
+    <div id="notes-container"></div>
+
+    <main class="main">
+        <section id="intro">
+            <h1>Flaut</h1>
+            <p>Flautul este unul dintre cele mai vechi și versatile instrumente muzicale, apreciat pentru sunetul său clar, delicat și melodios. Este folosit în diverse genuri muzicale, de la muzica clasică la jazz și muzica de film, fiind un simbol al expresivității și al rafinamentului.</p>
+            <model-viewer src="basic_flute.glb" alt="Model 3D de flaut" 
+                auto-rotate camera-controls shadow-intensity="1" style="width: 100%; height: 30em;">
+            </model-viewer>
+        </section>
+
+        <section id="istoric">
+            <h2>Istoric</h2>
+            <p>Flautul are o istorie de peste 40.000 de ani, fiind unul dintre cele mai vechi instrumente muzicale descoperite. Primele flauturi erau fabricate din oase de pasăre sau fildeș și au fost găsite în Germania. Flautul modern, cu sistemul său de clape, a fost dezvoltat în secolul al XIX-lea de către Theobald Boehm, care a revoluționat designul și intonația instrumentului.</p>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/flaut_pre.jpg" alt="Flaut preistoric">
+                    <figcaption>Flaut preistoric</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="tipuri">
+            <h2>Tipuri de flaut:</h2>
+            <ul>
+                <li><strong>Flaut traversier:</strong> Este cel mai răspândit tip, folosit în orchestre și ansambluri de cameră.</li>
+                <li><strong>Flaut piccolo:</strong> De dimensiuni mai mici, produce un sunet mai înalt și strălucitor.</li>
+                <li><strong>Flaut de lemn:</strong> Utilizat mai ales în muzica tradițională și folk, are un sunet cald și autentic.</li>
+            </ul>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/f_trav.jpeg" alt="Flaut traversier">
+                    <figcaption>Flaut traversier</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/f_picc.jpeg" alt="Flaut piccolo">
+                    <figcaption>Flaut piccolo</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/f_wood.jpeg" alt="Flaut de lemn">
+                    <figcaption>Flaut de lemn</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="functionare">
+            <h2>Cum funcționează flautul?</h2>
+            <p>Sunetul flautului este produs prin suflarea aerului peste orificiul de suflat, creând vibrații în coloana de aer din interiorul instrumentului. Flautistul controlează înălțimea sunetului prin apăsarea clapelor, care modifică lungimea coloanei de aer, și prin poziționarea buzelor pentru a ajusta intonația și volumul.</p>
+        </section>
+
+        <section id="utilizare">
+            <h2>Utilizare în muzică</h2>
+            <p>Flautul este un instrument extrem de versatil, utilizat în diverse genuri muzicale:</p>
+            <ul>
+                <li><strong>Muzică clasică:</strong> Este un instrument de bază în orchestre și ansambluri de cameră.</li>
+                <li><strong>Jazz:</strong> Flautul adaugă o notă expresivă și unică în acest gen muzical.</li>
+                <li><strong>Muzică de film:</strong> Flautul este utilizat pentru a crea atmosfere delicate, misterioase sau dramatice.</li>
+            </ul>
+        </section>
+
+        <section id="curiozitati">
+            <h2>Curiozități</h2>
+            <ul>
+                <li>Cel mai lung flaut din lume are peste 5 metri și a fost creat în China.</li>
+                <li>Flauturile moderne pot fi fabricate din aur, argint sau platină, în funcție de preferințele artistului.</li>
+                <li>În Japonia, există un flaut tradițional numit "shakuhachi," folosit în meditație și muzică tradițională.</li>
+            </ul>
+        </section>
+
+        <section id="muzicieni-celebri">
+            <h2>Muzicieni celebri</h2>
+            <p>Unii dintre cei mai cunoscuți flautiști din lume includ:</p>
+            <ul>
+                <li><strong>Jean-Pierre Rampal:</strong> Flautist francez recunoscut pentru contribuția sa în popularizarea flautului.</li>
+                <li><strong>James Galway:</strong> Flautist irlandez cu o carieră remarcabilă în muzica clasică și modernă.</li>
+                <li><strong>Emmanuel Pahud:</strong> Solist principal al Filarmonicii din Berlin.</li>
+            </ul>
+            <div class="image-container-gallery">
+                <figure>
+                    <img src="../Imagini/rampal.jpeg" alt="Jean-Pierre Rampal">
+                    <figcaption>Jean-Pierre Rampal</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/galway.jpeg" alt="James Galway">
+                    <figcaption>James Galway</figcaption>
+                </figure>
+                <figure>
+                    <img src="../Imagini/pahud.jpeg" alt="James Galway">
+                    <figcaption>James Galway</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="concerte-celebre">
+            <h2>Concerte renumite</h2>
+            <p>Flautul a fost instrumentul principal în multe lucrări celebre. Iată două dintre cele mai cunoscute:</p>
+            <ul>
+                <li>
+                    <strong>Claude Debussy - Syrinx:</strong>
+                    O lucrare solo pentru flaut, considerată o capodoperă a impresionismului.
+                </li>
+                <li>
+                    <strong>Wolfgang Amadeus Mozart - Concert pentru Flaut și Harpă în Do Major, K. 299:</strong>
+                    O lucrare elegantă și expresivă, care pune în valoare flautul și harpa.
+                </li>
+            </ul>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IZovibvtoYg" title="Debussy - Syrinx" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0zZLm9R_M84" title="Mozart - Concert pentru Flaut și Harpă" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>                          
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Instrumente Muzicale. Toate drepturile rezervate.</p>
+    </footer>
+
+    <audio id="background-music" loop>
+        <source src="../Music/Debussy_ Syrinx for solo flute (Emmanuel Pahud).mp3" type="audio/mpeg">
+        Browser-ul tău nu suportă redarea audio.
+    </audio>
+    <div class="audio-controls">
+        <button id="play-pause-btn">▶ Play</button>
+        <div id="volume-wrapper">
+            <input id="volume-slider" type="range" min="0" max="1" step="0.01" value="0.5" style="display: none;">
+        </div>
+    </div>
+
+    <button id="scrollToTopBtn" title="Mergi sus">
+        <svg viewBox="0 0 24 24" class="arrow-up">
+            <path d="M4 14l8-8 8 8" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+</body>
+</html>
